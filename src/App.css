@@ -61,6 +61,7 @@
   margin-bottom: 0.2rem;
   margin-right: 0.2rem;
   border: none;
+  grid-column-gap:0.5rem;
 
 }
 
@@ -143,5 +144,8 @@
   color: white;
   height: 2rem;
   background-color: rgb(6, 116, 39);
+}
+* {
+  box-sizing: border-box;
 }
 
