@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: rgb(5, 121, 167);
+  height: auto;
+  padding: 0.1rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.App-title {
+  font-size: 2em;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.quote-container {
+  border: none;
+  background-color: rgb(227, 248, 243);
+  padding: 2rem;
+}
+
+.quote-section {
+
+  padding: 0.2rem;
+
+  margin-bottom: 0.2rem;
+}
+.input-field{
+  border: none;
+  border-bottom: 0.1rem solid blue;
+  padding: 0.5rem;
+  padding-bottom: 0.1rem;
+  text-align: left;
+  margin-right: 0.2rem;
+  font-size: 1.0rem
+}
+
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 25rem 10rem 10rem 10rem auto;
+  
+  padding: 0.1rem;
+  margin-bottom: 0.2rem;
+  margin-right: 0.2rem;
+  border: none;
+
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 0.1rem;
+  text-align: center;
+  margin-right: 0.2rem;
+  font-size: 1.0rem;  
+}
+.grid-item-qt {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 0.1rem;
+  padding-top: 0.4rem;
+  text-align: center;
+  margin-right: 0.2rem;
+  font-size: 1.0rem;  
+}
+.grid-item-header {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-bottom: 0.1rem solid black;
+  padding: 0.1rem;
+  text-align: center;
+  margin-right: 0.2rem;
+  font-size: 1.0rem;  
+}
+.grid-item-prod {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-bottom: 0.1rem solid black;
+  padding: 0.1rem;
+  padding-left: 0.5rem;
+  text-align: left;
+  margin-right: 0.2rem;
+  font-size: 1.0rem;
+}
+
+.item-grandT-label {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-align: right;
+  font-size: 1.2rem;
+  border: none;
+  padding-top: 0.5rem;
+
+}
+.item-grandT {
+  text-align: center;
+  font-size: 1.2rem;
+  border: none;
+  border-top: 0.1rem solid black;
+  margin-left:0.5rem;
+  padding-top: 0.5rem;
+}
+
+.conditions {
+  height: 3.5rem;
+  width: 55rem;
+}
+.conditions-label {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-bottom: 0.1rem solid black;
+  padding: 0.1rem;
+  padding-left: 0.5rem;
+  text-align: left;
+  margin-right: 0.2rem;
+  font-size: 1.2rem;
+  width: 25rem;
+}
+.remove-button{
+  color: white;
+  height: 2rem;
+  background-color: rgb(247, 104, 104);
+}
+.add-button{
+  color: white;
+  height: 2rem;
+  background-color: rgb(6, 116, 39);
+}
+
